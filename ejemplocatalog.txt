@@ -1,0 +1,20 @@
+<?xml version
+<CATALOG>
+   <PRODUCT NAME = "Teléfono Huawei" CATEGORY = "HandTool" ARTNUM = "P10" PLANT = "Milwaukee" INVENTORY = "InStock">
+      <SPECIFICATIONS WEIGHT = "1.5 pounds" POWER = "5V">
+      </SPECIFICATIONS>
+      <OPTIONS FINISH = "Matte" ADAPTER = "Optional" CASE = "Soft">
+      </OPTIONS>
+      <PRICE MSRP = "167.50$" WHOLESALE = "190.00$" STREET = "220.00$" SHEEPING = "9.90$">
+      </PRICE>
+      <NOTES> Producto manufacturado en China </NOTES>
+   </PRODUCT>
+   <PRODUCT NAME = "Tablet Samsung" CATEGORY = "Table" PARTNUM = "ST38" PLANT = "Chicago" INVENTORY = "Backordered">
+      <SPECIFICATIONS WEIGHT = "3 pounds" SPECIFICATIONS POWER = "220V">
+      </SPECIFICATIONS>
+      <PRICE MSRP = "330.00$" WHOLESALE = "380.00$" STREET = "465.00$" SHEEPING = "Dependiendo del lugar de estino">
+      </PRICE>
+      <NOTES> Producto manufacturado en China </NOTES>
+   </PRODUCT>
+   <author>&AUTHOR;&COMPANY;&EMAIL</author>
+</CATALOG>

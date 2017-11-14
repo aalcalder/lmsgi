@@ -1,0 +1,5 @@
+<NEWSPAPER>
+   <ARTICLE AUTOR="Pablo García">
+      
+   </ARTICLE>
+</NEWSPAPER

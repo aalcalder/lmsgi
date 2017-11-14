@@ -1,0 +1,33 @@
+<xs:element name="alumno">
+  <xs:complexType>
+    <xs:sequence>
+      <xs:element name="nombre" use="required"/>
+         <xs:simpleType>
+            <xs:restriction base="xs:string">
+               <xs:pattern value="([A-Z])+"/>
+            </xs:restriction>
+         <xs:simpleType>
+      </xs:element>
+      <xs:element name="apellido1" use="required"/>
+         <xs:simpleType>
+            <xs:restriction base="xs:string">
+               <xs:pattern value="([A-Z])+"/>
+      <xs:element name="apellido2" use="required"/>
+         <xs:simpleType>
+            <xs:restriction base="xs:string">
+               <xs:pattern value="([A-Z])+"/>
+      <xs:element name="DNI" type="xs:string" use="required"/>
+         <xs:simpleType>
+            <xs:restriction base="xs:string">
+               <xs:pattern value="([0-9]){8}[A-Z]"/>
+      <xs:element name="FechaNacimiento" type="xs:date"/>
+      <xs:element name="Edad" type="xs:integer" default="18"/>
+         <xs:simpleType>
+            <xs:restriction base="xs:integer">
+               <xs:minInclusive="15"/>
+               <xs:maxInclusive="60"/>
+      <xs:element name="FechaTutoria" type="xs:date"/>
+      <xs:element name="HoraTutoria" type="xs:time"/>
+    </xs:sequence>
+  </xs:complexType>
+</xs:element> 

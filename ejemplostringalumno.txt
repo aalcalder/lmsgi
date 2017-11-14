@@ -1,0 +1,14 @@
+<xs:element name="alumno">
+  <xs:complexType>
+    <xs:sequence>
+      <xs:element name="nombre" type="xs:string" use="required"/>
+      <xs:element name="apellido1" type="xs:string" use="required"/>
+      <xs:element name="apellido2" type="xs:string" use="required"/>
+      <xs:element name="DNI" type="xs:string" use="required"/>
+      <xs:element name="FechaNacimiento" type="xs:date"/>
+      <xs:element name="Edad" type="xs:integer" default="18"/>
+      <xs:element name="FechaTutoria" type="xs:date"/>
+      <xs:element name="HoraTutoria" type="xs:time"/>
+    </xs:sequence>
+  </xs:complexType>
+</xs:element> 

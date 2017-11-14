@@ -1,0 +1,44 @@
+<TVSCHEDULE>
+   <TVSCHEDULE NAME="Diciembre">
+      <CHANNEL CHAN="56 - Teledeporte">
+         <BANNER> Olimpiadas </BANNER>
+         <DAY>
+            <DATE> 25/12/2017 </DATE>
+            <HOLIDAY> Navidad </HOLIDAY>
+         </DAY>
+         <DAY>
+            <DATE> 26/12/2017 </DATE>
+            <PROGRAMSLOT VTR="Digital">
+               <TIME> 15:00 </TIME>
+               <TITLE LANGUAGE="Españaol>
+               <DESCRIPTION> ATP Shangai </DESCRIPTION>
+         </PROGRAMSLOT>
+         </DAY>
+      </CHANNEL>
+      <CHANNEL CHAN="63 - Antena 3">
+         <BANNER> Ponle Freno </BANNER>
+         <DAY>
+            <DATE> 25/12/2017 </DATE>
+            <HOLIDAY="Navidad">
+         </DAY>
+         <DAY>
+            <DATE> 26/12/2017 </DATE>
+            <PROGRAMSLOT>
+               <PROGRAMSLOT VTR> TDT </PROGRAMSLOT VTR>
+               <TIME> 14:00 </TIME>
+            <TITLE>
+               <TITLE RATING> 20% </TITLE RATING>
+               <TITLE LANGUAGE> Español </TITLE LENGUAGE>
+            </TITLE>
+            <DESCRIPTION> Los Simpson </DESCRIPTION
+         </PROGRAMSLOT>
+         <PROGRAMSLOT>
+            <TIME> 15:00 </TIME>
+            <TITLE>
+               <TITLE LANGUAGE> Español </TITLE LANGUAGE>
+            </TITLE>
+            <DESCRIPTION> Antena 3 Noticias (Mediodía) </DESCRIPTION>
+         </PROGRAMSLOT>
+      </DAY>
+   </CHANNEL>
+</TVSCHEDULE>
